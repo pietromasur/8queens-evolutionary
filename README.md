@@ -8,11 +8,13 @@ Evolutionary algorithms are based on the darwinian concept of evolution. It usua
 3. Select individuals to reproduce based on some rule influenced by the fitness
 4. Recombine the selected parents to generate new sons.
    - Crossover
-   - Mutation
+   - Mutation  
 The main difficulty on the evolution process is to find a good balance between exploration of the problem space and exploitation of local minima. Increases on crossover and mutation probability usualy lead to an increase of exploration. On the other hand, a small recombination probability leads to sons being more similar to their parents, which causes an increase of exploitation. Other means of increasing exploitation involve:
+
 - Elistis parent selection
 - Crossover rules biased towards preservation of parent genotype
-- Mutation probability set to low
+- Mutation probability set to low  
+
 However, if the algorithm is too biased toward exploitation this may led to early convergence, which may not offer a desired solution.
 
 # 8 Queens 
