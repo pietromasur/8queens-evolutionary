@@ -7,8 +7,8 @@ Evolutionary algorithms are based on the darwinian concept of evolution. It usua
 2. Calculate fitness of each individual
 3. Select individuals to reproduce based on some rule influenced by the fitness
 4. Recombine the selected parents to generate new sons.
-    - Crossover
-    - Mutation
+   - Crossover
+   - Mutation
 The main difficulty on the evolution process is to find a good balance between exploration of the problem space and exploitation of local minima. Increases on crossover and mutation probability usualy lead to an increase of exploration. On the other hand, a small recombination probability leads to sons being more similar to their parents, which causes an increase of exploitation. Other means of increasing exploitation involve:
 - Elistis parent selection
 - Crossover rules biased towards preservation of parent genotype
@@ -23,18 +23,18 @@ We developed a standart evolutionary algorithm to solve the 8 queens problem.
 - Fitness function: The sum of all conflicts on a given board 
 - Parent selection: Two parents randomly picker out of the 5 best individuals of the population
 - Recombination
-                - Crossover:
-                              - Standart crossover
-                              - Crossover at the edges of the array
-                - Mutation:
-                              - Standart mutation
-                - Dynamic tuning of crossover and mutation probability
+    - Crossover:
+      - Standart crossover
+      - Crossover at the edges of the array
+    - Mutation:
+      - Standart mutation
+    - Dynamic tuning of crossover and mutation probability
 
 # Evaluation Metrics
 The following metrics were used to evaluate performance of a given architecture:
 - Num of epochs to reach convergence
-                                      -  Average num of epochs
-                                      -  Mean num of epochs
+  - Average num of epochs
+  - Mean num of epochs
 - Best invidual fitness
 - Standart fitness deviation
 - Average fitnes
