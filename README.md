@@ -80,7 +80,7 @@ The following metrics were used to evaluate the performance of a given architect
 
 - Best individual fitness
 
-- Standart fitness deviation
+- Standard fitness deviation
 
 - Average fitness
 
